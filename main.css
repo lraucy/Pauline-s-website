@@ -46,10 +46,27 @@ img {
 .sous_cadre {
 	padding-left:47px;
 	padding-top:32px;
-	background-color:#9f9c88;
 	width:578px;
 	height:600px;
 	border:solid #7b816a 1px;
+}
+
+.sous_cadre_principal {
+	background-color:#9f9c88;
+}
+
+.sous_cadre_stylisme {
+	background-color:#887d82;
+}
+.sous_cadre_graphisme {
+	background-color:#af8564;
+}
+.sous_cadre_illus {
+	background-color:#afbb86;
+}
+
+.sous_cadre_liens {
+	background-color:#a68686;
 }
 
 .sous_cadre_contact {
@@ -64,7 +81,6 @@ img {
 .sous_menu {
 	height:40px;
 }
-
 .sous_menu div {
 	padding:0px;
 	margin:0px;
@@ -72,6 +88,22 @@ img {
 	height:40px;
 	float:left;
 }
+
+.sous_menu_list {
+	height:30px;
+	margin-left:25px;
+}
+.sous_menu_list div {
+	padding:0px;
+	width:30px;
+	height:30px;
+	float:left;
+	background-image:url("img/structure/blackline.png")
+}
+.sous_menu_list div.selected {
+	background-image:url("img/structure/whiteline.png")
+}
+
 .sous_menu div img.exception {
 	width:179px;
 }
@@ -83,9 +115,57 @@ img {
 	height:633px;
 	background-image:url('img/polina.png');
 }
+
 .sous_contenu {
 	padding:0px;
 	margin:0px;
+}
+
+.sous_contenu_list {
+	padding-left:25px;
+	padding-top:20px;
+	width:534px;
+	height:533px;
+	background-image:url("img/structure/2.png");
+	background-repeat:no-repeat;
+}
+
+.sous_cadre_graphisme .sous_contenu {
+	width:534px;
+	height:533px;
+	padding-left:25px;
+	padding-top:20px;
+}
+.sous_cadre_graphisme .sous_contenu.contenu3A {
+	background-image:url("img/structure/3A.png");
+	background-repeat:no-repeat;
+}
+
+.sous_cadre_graphisme .sous_contenu.contenu3B {
+	background-image:url("img/structure/3B.png");
+	background-repeat:no-repeat;
+	padding-left:25px;
+	padding-top:20px;
+}
+
+.sous_cadre_illus .sous_contenu {
+	width:534px;
+	height:533px;
+	padding-left:25px;
+	padding-top:20px;
+}
+.sous_cadre_illus .sous_contenu.contenu4A {
+	background-image:url("img/structure/4A.png");
+	background-repeat:no-repeat;
+}
+
+.sous_cadre_illus .sous_contenu.contenu4B {
+	background-image:url("img/structure/4B.png");
+	background-repeat:no-repeat;
+}
+.sous_cadre_illus .sous_contenu.contenu4C {
+	background-image:url("img/structure/4C.png");
+	background-repeat:no-repeat;
 }
 
 .list_items ul {
@@ -93,4 +173,41 @@ img {
 
 .list_items li {
 	float:left;
+}
+
+.list_4_images {
+	clear:both;
+}
+
+.list_4_images a {
+	display:block;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.list_3_images {
+	clear:both;
+}
+
+.list_3_images a {
+	display:block;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-left:15px;
+	margin-top:15px;
+}
+
+.list_32_images {
+	clear:both;
+}
+
+.list_32_images a {
+	display:block;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-top:0px;
 }

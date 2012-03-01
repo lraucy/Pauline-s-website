@@ -1,19 +1,96 @@
+body {
+	background-color:#636465;
+	background-image:url('img/motif-.png');
+}
+
+img {
+	border:none;
+}
+
+#wrapper {
+	padding-top:50px;
+	padding-left:100px;
+}
+
 #content {
 	float:left;
-	border: 1px solid black;
-	width:600px;
-	height:500px;
+	padding-top:1px;
+	width:625px;
+	height:633px;
+}
+
+#side_content {
+	float:left;
+	width:300px;
+	height:700px;
 }
 
 #menu {
 	float:left;
-	border: 1px solid black;
 	width:50px;
-	height:500px;
+	height:700px;
 }
 
 #menu a {
 	display:block;
-	border: 1px solid black;
-	height:100px;
+	height:106px;
+	width:43px;
+	margin:0px;
+	padding:0px;
+}
+#menu a img {
+	margin:0px;
+	padding:0px;
+}
+
+.sous_cadre {
+	padding-left:47px;
+	padding-top:32px;
+	background-color:#9f9c88;
+	width:578px;
+	height:600px;
+	border:solid #7b816a 1px;
+}
+
+.sous_cadre_contact {
+	padding-left:47px;
+	padding-top:52px;
+	background-color:#85837f;
+	width:578px;
+	height:580px;
+	border:solid #7b816a 1px;
+}
+
+.sous_menu {
+	height:40px;
+}
+
+.sous_menu div {
+	padding:0px;
+	margin:0px;
+	width:178px;
+	height:40px;
+	float:left;
+}
+.sous_menu div img.exception {
+	width:179px;
+}
+
+
+
+#accueil_content {
+	width:625px;
+	height:633px;
+	background-image:url('img/polina.png');
+}
+.sous_contenu {
+	padding:0px;
+	margin:0px;
+}
+
+.list_items ul {
+}
+
+.list_items li {
+	float:left;
 }

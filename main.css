@@ -46,9 +46,10 @@ img {
 .sous_cadre {
 	padding-left:47px;
 	padding-top:32px;
-	width:578px;
+	width:577px;
 	height:600px;
 	border:solid #7b816a 1px;
+	border-right:solid #000000 1px;
 }
 
 .sous_cadre_principal {
@@ -73,9 +74,10 @@ img {
 	padding-left:47px;
 	padding-top:52px;
 	background-color:#85837f;
-	width:578px;
+	width:577px;
 	height:580px;
 	border:solid #7b816a 1px;
+	border-right:solid #000000 1px;
 }
 
 .sous_menu {
@@ -168,6 +170,22 @@ img {
 	background-repeat:no-repeat;
 }
 
+.sous_cadre_liens .sous_contenu {
+	width:534px;
+	height:533px;
+	padding-left:25px;
+	padding-top:20px;
+}
+.sous_cadre_liens .sous_contenu.contenu5A {
+	background-image:url("img/structure/5A.png");
+	background-repeat:no-repeat;
+}
+
+.sous_cadre_liens .sous_contenu.contenu5B {
+	background-image:url("img/structure/5B.png");
+	background-repeat:no-repeat;
+}
+
 .list_items ul {
 }
 
@@ -210,4 +228,19 @@ img {
 	margin-bottom:10px;
 	margin-left:10px;
 	margin-top:0px;
+}
+
+.sous_cadre_liens .sous_contenu{
+	font-family:LoveYaLikeASister;
+	font-size:small;
+	color:#978b92;
+}
+.sous_cadre_liens .sous_contenu p{
+	margin-bottom:3px;
+}
+
+
+@font-face {
+	font-family: LoveYaLikeASister;
+	src: url(fonts/LoveYaLikeASister.ttf);
 }
